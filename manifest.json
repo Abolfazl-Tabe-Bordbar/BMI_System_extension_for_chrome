@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "BMI",
+    "description": "Welcome To The BMI System Developer : Abolfazl Tabe Bordbar",
+    "version": "1.0",
+    "icons": {
+        "128": "./icon.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+
+   
+
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["style.css"],
+        "js": ["script.js"]
+    }]
+}
